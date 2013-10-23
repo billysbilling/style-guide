@@ -1,0 +1,13 @@
+{
+  "name": "style-guide",
+  "version": "0.1.0",
+  "homepage": "https://github.com/billysbilling/style-guide",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

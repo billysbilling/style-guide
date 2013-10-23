@@ -1,0 +1,23 @@
+$font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+$font-size: 14px;
+$font-color: $blue-gray-dark;
+
+$line-height: 24px;
+$tight-line-height: 16px;
+$large-line-height: 36px;
+$paragraph-line-height: 20px;
+
+$small-font-size: 12px;
+$small-line-height: 18px;
+$small-tight-line-height: 15px;
+@mixin small-font {
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+}
+
+$mini-font-size: 10px;
+$mini-line-height: 16px;
+@mixin mini-font {
+    font-size: $mini-font-size;
+    line-height: $mini-line-height;
+}

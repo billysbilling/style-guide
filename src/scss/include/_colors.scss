@@ -37,4 +37,22 @@ $blue-gray-dark: #5c6666;
 $background-gray: #f7fafc;
 $border-gray: #e5ecf1;
 
-$colors: ("red" $red) ("green" $green) ("blue" $blue) ("yellow" $yellow) ("purple" $purple) ("blue-gray" $blue-gray);
+$colors:
+        ("red" $red)
+        ("red-light" $red-light)
+        ("red-dark" $red-dark)
+        ("green" $green)
+        ("green-light" $green-light)
+        ("green" $green)
+        ("blue-dark" $blue-dark)
+        ("blue-light" $blue-light)
+        ("blue-dark" $blue-dark)
+        ("yellow" $yellow)
+        ("yellow-light" $yellow-light)
+        ("yellow-dark" $yellow-dark)
+        ("purple" $purple)
+        ("purple-light" $purple-light)
+        ("purple-dark" $purple-dark)
+        ("blue-gray" $blue-gray)
+        ("blue-gray-light" $blue-gray-light)
+        ("blue-gray-dark" $blue-gray-dark);

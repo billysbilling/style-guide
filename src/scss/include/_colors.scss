@@ -32,9 +32,10 @@ $gray-xlight: #fcfcfc;
 $gray-dark: #b2b2b2;
 
 $blue-gray: #7e888c;
-$blue-gray-light: #dae2e6;
-$blue-gray-xlight: #f5f7f9;
-$blue-gray-dark: #3e5059;
+$blue-gray-light: #97aab2;
+$blue-gray-xlight: #dae2e6;
+$blue-gray-xxlight: #f5f7f9;
+$blue-gray-dark: #3e5159;
 
 $background-gray: #f7fafc;
 $border-gray: #e5ecf1;
@@ -43,19 +44,30 @@ $input-border-gray: #b8c5cc;
 $colors:
         ("red" $red)
         ("red-light" $red-light)
+        ("red-xlight" $red-xlight)
         ("red-dark" $red-dark)
         ("green" $green)
         ("green-light" $green-light)
+        ("green-xlight" $green-xlight)
         ("green-dark" $green-dark)
         ("blue" $blue)
         ("blue-light" $blue-light)
+        ("blue-xlight" $blue-xlight)
         ("blue-dark" $blue-dark)
+        ("blue-xdark" $blue-xdark)
         ("yellow" $yellow)
         ("yellow-light" $yellow-light)
+        ("yellow-xlight" $yellow-xlight)
         ("yellow-dark" $yellow-dark)
         ("purple" $purple)
         ("purple-light" $purple-light)
         ("purple-dark" $purple-dark)
+        ("gray" $gray)
+        ("gray-light" $gray-light)
+        ("gray-xlight" $gray-xlight)
+        ("gray-dark" $gray-dark)
         ("blue-gray" $blue-gray)
         ("blue-gray-light" $blue-gray-light)
+        ("blue-gray-xlight" $blue-gray-xlight)
+        ("blue-gray-xxlight" $blue-gray-xxlight)
         ("blue-gray-dark" $blue-gray-dark);

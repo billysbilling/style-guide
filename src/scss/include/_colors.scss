@@ -1,73 +1,107 @@
-$white: #ffffff;
-$black: #000000;
+$blue:         #399de5;
+$blue-xxlight: #f4faff;
+$blue-xlight:  #cce9ff;
+$blue-light:   #6dbaf2;
+$blue-dark:    #1377bf;
+$blue-xdark:   #0e578c;
 
-$red: #f38379;
-$red-light: #f2a59d;
-$red-xlight: #fcedeb;
-$red-dark: #d1685e;
+$green:         #66cc6e;
+$green-xxlight: #f4fff5;
+$green-xlight:  #d4f9d7;
+$green-light:   #a0e5a0;
+$green-dark:    #42a54a;
+$green-xdark:   #2c7f33;
 
-$green: #63c7ae;
-$green-light: #98d9c8;
-$green-xlight: #eaf7f4;
-$green-dark: #55ab95;
+$red:         #f97063;
+$red-xxlight: #fff8f7;
+$red-xlight:  #fce2e0;
+$red-light:   #fcaba3;
+$red-dark:    #d84336;
+$red-xdark:   #a51d10;
 
-$blue: #62b1d9;
-$blue-light: #95cbe5;
-$blue-xlight: #dfeff7;
-$blue-dark: #47a0cc;
-$blue-xdark: #4192ba;
+$yellow:         #ffd23f;
+$yellow-xxlight: #fffbef;
+$yellow-xlight:  #fff4cc;
+$yellow-light:   #ffe48c;
+$yellow-dark:    #f2a918;
+$yellow-xdark:   #e58500;
 
-$yellow: #f7c96c;
-$yellow-light: #ffdd99;
-$yellow-xlight: #fffaf0;
-$yellow-dark: #f2b53c;
+$purple:         #b08df7;
+$purple-xxlight: #f9f7ff;
+$purple-xlight:  #e8ddff;
+$purple-light:   #d0bafc;
+$purple-dark:    #7f5fbf;
+$purple-xdark:   #5b3d99;
 
-$purple: #ad97d8;
-$purple-light: #c6b7e5;
-$purple-dark: #8874b2;
+$blue-gray:         #8497a5;
+$blue-gray-xxlight: #f7fafc;
+$blue-gray-xlight:  #e8eff4;
+$blue-gray-light:   #b5c6ce;
+$blue-gray-dark:    #526c7f;
+$blue-gray-xdark:   #354a59;
 
-$gray: #bfbfbf;
-$gray-light: #e5e5e5;
-$gray-xlight: #fcfcfc;
-$gray-dark: #b2b2b2;
+$gray:         #a5a5a5;
+$gray-xxlight: #f7f7f7;
+$gray-xlight:  #e5e5e5;
+$gray-light:   #cccccc;
+$gray-dark:    #7c7c7c;
+$gray-xdark:   #595959;
 
-$blue-gray: #7e888c;
-$blue-gray-light: #97aab2;
-$blue-gray-xlight: #dae2e6;
-$blue-gray-xxlight: #f5f7f9;
-$blue-gray-dark: #3e5159;
-
-$background-gray: #f7fafc;
-$border-gray: #e5ecf1;
-$input-border-gray: #b8c5cc;
+$white:       #ffffff;
+$skin-light:  #ffd4cc;
+$skin-dark:   #e5b7a0;
+$brown:       #725e50;
+$brown-dark:  #4c4139;
+$brown-xdark: #26211e;
+$black:       #000000;
 
 $colors:
-        ("red" $red)
-        ("red-light" $red-light)
-        ("red-xlight" $red-xlight)
-        ("red-dark" $red-dark)
-        ("green" $green)
-        ("green-light" $green-light)
-        ("green-xlight" $green-xlight)
-        ("green-dark" $green-dark)
-        ("blue" $blue)
-        ("blue-light" $blue-light)
-        ("blue-xlight" $blue-xlight)
-        ("blue-dark" $blue-dark)
-        ("blue-xdark" $blue-xdark)
-        ("yellow" $yellow)
-        ("yellow-light" $yellow-light)
-        ("yellow-xlight" $yellow-xlight)
-        ("yellow-dark" $yellow-dark)
-        ("purple" $purple)
-        ("purple-light" $purple-light)
-        ("purple-dark" $purple-dark)
-        ("gray" $gray)
-        ("gray-light" $gray-light)
-        ("gray-xlight" $gray-xlight)
-        ("gray-dark" $gray-dark)
-        ("blue-gray" $blue-gray)
-        ("blue-gray-light" $blue-gray-light)
-        ("blue-gray-xlight" $blue-gray-xlight)
+        ("blue"         $blue)
+        ("blue-xxlight" $blue-xxlight)
+        ("blue-xlight"  $blue-xlight)
+        ("blue-light"   $blue-light)
+        ("blue-dark"    $blue-dark)
+        ("blue-xdark"   $blue-xdark)
+        ("green"         $green)
+        ("green-xxlight" $green-xxlight)
+        ("green-xlight"  $green-xlight)
+        ("green-light"   $green-light)
+        ("green-dark"    $green-dark)
+        ("green-xdark"   $green-xdark)
+        ("red"         $red)
+        ("red-xxlight" $red-xxlight)
+        ("red-xlight"  $red-xlight)
+        ("red-light"   $red-light)
+        ("red-dark"    $red-dark)
+        ("red-xdark"   $red-xdark)
+        ("yellow"         $yellow)
+        ("yellow-xxlight" $yellow-xxlight)
+        ("yellow-xlight"  $yellow-xlight)
+        ("yellow-light"   $yellow-light)
+        ("yellow-dark"    $yellow-dark)
+        ("yellow-xdark"   $yellow-xdark)
+        ("purple"         $purple)
+        ("purple-xxlight" $purple-xxlight)
+        ("purple-xlight"  $purple-xlight)
+        ("purple-light"   $purple-light)
+        ("purple-dark"    $purple-dark)
+        ("purple-xdark"   $purple-xdark)
+        ("blue-gray"         $blue-gray)
         ("blue-gray-xxlight" $blue-gray-xxlight)
-        ("blue-gray-dark" $blue-gray-dark);
+        ("blue-gray-xlight"  $blue-gray-xlight)
+        ("blue-gray-light"   $blue-gray-light)
+        ("blue-gray-dark"    $blue-gray-dark)
+        ("blue-gray-xdark"   $blue-gray-xdark)
+        ("gray"         $gray)
+        ("gray-xxlight" $gray-xxlight)
+        ("gray-xlight"  $gray-xlight)
+        ("gray-light"   $gray-light)
+        ("gray-dark"    $gray-dark)
+        ("gray-xdark"   $gray-xdark)
+        ("white"       $white)
+        ("skin-light"  $skin-light)
+        ("skin-dark"   $skin-dark)
+        ("brown"       $brown)
+        ("brown-dark"  $brown-dark)
+        ("brown-xdark" $brown-xdark)
+        ("black"       $black);

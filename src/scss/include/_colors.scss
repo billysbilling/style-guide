@@ -55,6 +55,11 @@ $brown-dark:  #4c4139;
 $brown-xdark: #26211e;
 $black:       #000000;
 
+// These are left in to avoid breaking changes.
+$background-gray:   $blue-gray-xxlight;
+$border-gray:       $blue-gray-xlight;
+$input-border-gray: $blue-gray-light;
+
 $colors:
         ("blue"         $blue)
         ("blue-xxlight" $blue-xxlight)
@@ -104,4 +109,7 @@ $colors:
         ("brown"       $brown)
         ("brown-dark"  $brown-dark)
         ("brown-xdark" $brown-xdark)
-        ("black"       $black);
+        ("black"       $black)
+        ("background-gray"   $background-gray)
+        ("border-gray"       $border-gray)
+        ("input-border-gray" $input-border-gray);
